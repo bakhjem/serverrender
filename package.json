@@ -1,0 +1,52 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "React starter kit with my best practices.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start": "cross-env NODE_ENV=production node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamwang/react-starter.git"
+  },
+  "keywords": [
+    "react",
+    "starter-kit",
+    "ssr"
+  ],
+  "author": "liamwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamwang/react-starter/issues"
+  },
+  "homepage": "https://github.com/liamwang/react-starter#readme",
+  "dependencies": {
+    "antd": "^3.20.5",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-ga": "^2.6.0",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "scriptjs": "^2.5.9"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "razzle": "^2.2.0",
+    "sass-loader": "^7.0.3",
+    "svg-inline-loader": "^0.8.0"
+  }
+}
